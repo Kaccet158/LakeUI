@@ -1,0 +1,18 @@
+/* Quick Settings*/
+.quick-settings {
+    background-color: rgba(30, 30, 30, 0.5) !important; /* Dark Tarnsparent */
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Inside Menu */
+.quick-settings-grid .child {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 12px;
+}
+
+/* Active Buttons */
+.quick-settings-grid .child:checked {
+    background-color: rgba(53, 132, 228, 0.6) !important; 
+}
